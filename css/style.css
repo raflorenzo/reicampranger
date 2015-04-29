@@ -1,0 +1,115 @@
+/********* GENERAL *********/
+
+body{
+	margin: 0 0;
+	font-family:'Roboto',serif;
+	font-size:18px;
+}
+
+.container{
+	max-width:1024px;
+	margin:0 auto;
+}
+
+h3 a{
+	text-decoration: none;
+	color:black;
+}
+
+/********* NAVIGATION *********/
+nav{
+	background:black;
+	height:60px;
+}
+
+nav ul{
+	text-align: center;
+	padding-top:20px;
+}
+
+nav ul li{
+	display:inline-block;
+	list-style:none;
+	margin: 0 40px;
+}
+
+nav a{
+	text-decoration: none;
+	color:white;
+}
+
+/********* TOPNAV *********/
+nav.top{
+	height:30px;
+}
+
+#checkout{
+	float:right;
+}
+
+#helptab{
+	display: inline-block;
+}
+
+/********* LOGO SPACE *********/
+
+.logo{
+	display: inline-block;
+	padding-top:30px;
+	padding-left:30px;
+}
+.logotext{
+	display: inline-block;
+}
+.logospace{
+	height:140px;
+	padding-bottom:0px;
+}
+
+
+
+/********* TRIPS *********/
+
+.trip{
+	padding:30px 20px;
+	width:90%;
+	margin:26px auto;
+	background-size:cover;
+	box-shadow: 1px 1px 3px #888888;
+	color:white;
+}
+
+.tripnamedate{
+	display: inline-block;
+	font-family:"Roboto Slab";
+}
+
+.readysection{
+	float:right;
+	display: inline-block;
+	width:300px;
+}
+
+.yellowstone{
+	background:url("../img/yellowstone.jpg");
+	background-size:1024px 800px;
+	background-position:30% 19%;
+}
+
+.yosemite{
+	background:url("../img/yosemite.jpg");
+	background-size:1024px 800px;
+	background-position:30% 12%;
+}
+
+.smokymountains{
+	background:url("../img/smokymountains.jpg");
+	background-size:1024px 800px;
+	background-position:70% 40%;
+}
+
+.grandcanyon{
+	background:url("../img/grandcanyon.jpg");
+	background-size:1024px 800px;
+	background-position:70% 40%;
+}
